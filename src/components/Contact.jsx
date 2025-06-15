@@ -45,7 +45,7 @@ export default function Contact({ darkMode }) {
         Contact me
       </h1>
 
-      <p className={`${darkMode ? 'text-gray-300' : 'text-gray-600'} mb-8`}>
+      <p className={`${darkMode ? 'text-gray-300' : 'text-gray-600'}  mb-8`}>
         Please contact me directly at{" "}
         <a
           href="mailto:workwithsujal04@gmail.com"
