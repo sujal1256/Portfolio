@@ -8,7 +8,7 @@ import Skills from "./Skills";
 import Education from "./Education";
 import Contact from "./Contact";
 import Footer from "./Footer";
-import Navigator from "./navigator";
+import Navigator from "./Navigator";
 
 function Body({darkMode, toggleDarkMode}) {
 
