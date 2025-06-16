@@ -66,8 +66,8 @@ export default function Contact({ darkMode }) {
             required
             className={`w-full px-4 py-3 rounded-lg border ${
               darkMode 
-                ? 'border-gray-700 bg-gray-800 text-white focus:ring-blue-400' 
-                : 'border-gray-200 bg-gray-50 focus:ring-blue-500'
+                ? 'border-gray-700 bg-gray-800 text-white placeholder-gray-400 focus:ring-blue-400' 
+                : 'border-gray-200 bg-gray-50 placeholder-gray-500 focus:ring-blue-500'
             } focus:outline-none focus:ring-2`}
           />
         </div>
@@ -81,8 +81,8 @@ export default function Contact({ darkMode }) {
             required
             className={`w-full px-4 py-3 rounded-lg border ${
               darkMode 
-                ? 'border-gray-700 bg-gray-800 text-white focus:ring-blue-400' 
-                : 'border-gray-200 bg-gray-50 focus:ring-blue-500'
+                ? 'border-gray-700 bg-gray-800 text-white placeholder-gray-400 focus:ring-blue-400' 
+                : 'border-gray-200 bg-gray-50 placeholder-gray-500 focus:ring-blue-500'
             } focus:outline-none focus:ring-2`}
           />
         </div>
@@ -96,8 +96,8 @@ export default function Contact({ darkMode }) {
             rows={6}
             className={`w-full px-4 py-3 rounded-lg border ${
               darkMode 
-                ? 'border-gray-700 bg-gray-800 text-white focus:ring-blue-400' 
-                : 'border-gray-200 bg-gray-50 focus:ring-blue-500'
+                ? 'border-gray-700 bg-gray-800 text-white placeholder-gray-400 focus:ring-blue-400' 
+                : 'border-gray-200 bg-gray-50 placeholder-gray-500 focus:ring-blue-500'
             } focus:outline-none focus:ring-2 resize-none`}
           />
         </div>

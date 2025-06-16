@@ -5,7 +5,7 @@ const ProjectCard = ({ project, darkMode }) => {
   return (
     <div
       className={`${darkMode ? 'bg-gray-800 border-gray-700' : 'bg-white border-gray-200'} 
-      rounded-lg border overflow-hidden shadow-sm lg:w-76 w-full flex flex-col 
+      rounded-lg border overflow-hidden shadow-sm w-full sm:w-[calc(50%-8px)] lg:w-[calc(50%-8px)] flex flex-col 
       transition-all duration-300 ease-in-out hover:shadow-lg 
       ${darkMode ? 'hover:border-gray-600' : 'hover:border-gray-300'} hover:-translate-y-1`}
     >
