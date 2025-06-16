@@ -71,7 +71,6 @@ function Navigator({ darkMode, toggleDarkMode }) {
             }`}
           >
             {item.label}
-            {console.log(item.id, activeSection)}
           </button>
         ))}
 
