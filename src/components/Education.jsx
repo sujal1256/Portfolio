@@ -18,7 +18,7 @@ export default function Education({darkMode}) {
           <div key={index} className="flex items-start">
             <div className="mr-4">
               <div className={`w-16 h-16 ${darkMode ? 'bg-gray-800' : 'bg-gray-100'} rounded-full flex items-center justify-center`}>
-                <div className="bg-[url(images/college.png)] bg-cover w-12 h-12 rounded-full bg-blue-100 flex items-center justify-center">
+                <div className="bg-[url(/images/college.png)] bg-cover w-12 h-12 rounded-full bg-blue-100 flex items-center justify-center">
                 </div>
               </div>
               {index < educationData.length - 1 && (
